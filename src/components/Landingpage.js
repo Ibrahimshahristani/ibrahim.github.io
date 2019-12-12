@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import {Grid, Cell } from 'react-mdl';
 import myimage from '../images/myimg.jpg';
+
 class Landingpage extends Component {
 
     render () {
@@ -24,6 +25,7 @@ class Landingpage extends Component {
 
                             
                             <p>/** C# | React | Sql Server | HTML | CSS | Angular **/ </p>
+                            <br/>   <br/>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/shahristani/" rel=" noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
@@ -38,13 +40,17 @@ class Landingpage extends Component {
                             </div>
 
                         </div>
+                    
+                    
 
                    </Cell>
+            
                </Grid>
 
-
            </div>
+         
         )
+       
     }
 }
 export default Landingpage;

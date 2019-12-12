@@ -18,9 +18,16 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
    height: 100%;
 
 }
+.contact{
+    margin-left: 10px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+}
 .myimage{
     height: 250px;
     padding-top: 5em;
+    
 }
 .banner-text{
    

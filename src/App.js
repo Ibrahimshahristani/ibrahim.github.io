@@ -3,10 +3,12 @@ import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import './App.css';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import Footer from './components/footer.js';
+import Contact from './components/contact';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+    <div>
     <Layout fixedHeader>
         <Header className="header-color" title={<span><span style={{ color: '#000' }}> </span></span>}>
             <Navigation >
@@ -16,8 +18,10 @@ function App() {
                 <Link to="/project">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
-        </Header>
-        <Drawer title="Title">
+            </Header>
+
+ {/** 
+         <Drawer title="Title">
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -25,10 +29,18 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
-        <Main/>
+*/}
+    <Main/>
+
     </Layout>
+
 </div>
+    
+
+
   );
+
 }
+
 
 export default App;

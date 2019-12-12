@@ -1,18 +1,25 @@
 import React, { Component} from 'react';
+import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
 import { Card, CardTitle, CardActions} from 'react-mdl';
 class Project extends Component {
 
     render () {
         return (
-        
-<Card shadow={0} style={{width: '256px', height: '256px',  margin: '50px, 40px, 60px'}}>
-    <CardTitle expand />
-    <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
-        <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
-            Image.jpg
-        </span>
-    </CardActions>
-</Card>
+            <div className ="project">
+               <h3 className="h1-responsive font-weight-bold text-center my-4">Projects</h3>
+            <ul>
+                <li>
+                    <a href="countr.html">Country Project</a>
+                </li>
+                <li>
+                    <a href="countr.html">SSD Front end Project</a>
+                </li>
+                <li>
+                    <a href="countr.html">.Net Project</a>
+                </li>
+            </ul>
+            </div>
 
         )
     }

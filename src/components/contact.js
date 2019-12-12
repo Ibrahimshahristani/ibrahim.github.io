@@ -11,8 +11,8 @@ class Contact extends Component {
 <div className="contact">
 <section className="mb-4">
 
-    <h3 className="h1-responsive font-weight-bold text-center my-4">Contact me</h3>
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. 
+    <h3 className="h1-responsive font-weight-bold  my-4">Contact me</h3>
+    <p class=" w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. 
         a matter of hours to help you.</p>
 
     <div className="row">

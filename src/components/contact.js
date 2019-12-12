@@ -24,15 +24,17 @@ class Contact extends Component {
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
+                        <label for="name" className="lb">Your name</label>
                             <input type="text" id="name" name="name" className="form-control"/>
-                            <label for="name" className="">Your name</label>
+                           
                         </div>
                     </div>
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
+                        <label for="email" className="lb">Your email</label>
                             <input type="text" id="email" name="email" className="form-control"/>
-                            <label for="email" className="">Your email</label>
+                            
                         </div>
                     </div>
 
@@ -41,8 +43,9 @@ class Contact extends Component {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="md-form mb-0">
+                        <label for="subject" className="lb">Subject</label>
                             <input type="text" id="subject" name="subject" className="form-control"/>
-                            <label for="subject" className="">Subject</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -52,8 +55,9 @@ class Contact extends Component {
                     <div className="col-md-12">
 
                         <div className="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
+                        <label for="message"className="lb">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="8" class="form-control md-textarea"></textarea>
+                          
                         </div>
 
                     </div>
@@ -62,26 +66,13 @@ class Contact extends Component {
             </form>
 
             <div className="text-center text-md-left">
+                <br/>
                 <a className="btn btn-primary">Send</a>
             </div>
-            <div className="status"></div>
+          
         </div>
         
-        <div className="col-md-3 text-center">
-            <ul className="list-unstyled mb-0">
-                <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Vancouver,CA</p>
-                </li>
-
-                <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 7785120203</p>
-                </li>
-
-                <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>ishahristani@my.bcit.ca</p>
-                </li>
-            </ul>
-        </div>
+        
 
     </div>
 

@@ -24,7 +24,10 @@ class Landingpage extends Component {
                             <p>// Full Stack Developer </p>
 
                             
-                            <p>/** C# | React | Sql Server | HTML | CSS | Angular **/ </p>
+                            <p>/**   C# | React | Sql Server | HTML | CSS | Angular <br/><br/>
+                               ishahristani@my.bcit.ca   
+                                   **/ </p>
+                           
                             <br/>   <br/>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/shahristani/" rel=" noopener noreferrer" target="_blank">

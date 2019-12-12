@@ -9,12 +9,13 @@ class Project extends Component {
             <div className ="project">
                <h3 className="h1-responsive font-weight-bold  my-4">Projects</h3>
             <ul>
+            <li>
+                    <a href="https://bcit-ssd.netlify.com">SSD Front end Project</a>
+                </li>
                 <li>
                     <a href="countr.html">Country Project</a>
                 </li>
-                <li>
-                    <a href="countr.html">SSD Front end Project</a>
-                </li>
+                
                 <li>
                     <a href="countr.html">.Net Project</a>
                 </li>
